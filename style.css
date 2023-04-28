@@ -1,0 +1,19 @@
+h3{
+    font-size: 34px !important;
+}
+.btn-primary:hover{
+    background-color: red;
+}
+
+
+canvas{
+    animation-name: ketchup;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ketchup{
+    from{box-shadow: 1px 1px 30px orangered;}
+    to{box-shadow: 1px 1px 30px darkblue;}
+
+}
